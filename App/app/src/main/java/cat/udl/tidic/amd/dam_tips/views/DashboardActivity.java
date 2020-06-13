@@ -24,7 +24,14 @@ public class DashboardActivity extends CustomActivty {
         setContentView(R.layout.activity_dashboard);
         initView();
     }
-
+    public void initRanking(View view){
+        Intent intent = new Intent(DashboardActivity.this,RankingUsers.class);
+        startActivity(intent);
+    }
+    public void initPerfil(View view){
+        Intent intent = new Intent(DashboardActivity.this, Perfil.class);
+        startActivity(intent);
+    }
 
 
     protected void initView(){

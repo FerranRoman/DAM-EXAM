@@ -29,6 +29,7 @@
         android:layout_height="117dp"
         android:layout_gravity="center"
         android:layout_marginTop="56dp"
+        android:onClick="initRanking"
         android:paddingLeft="16dp"
         android:paddingTop="16dp"
         android:paddingRight="16dp"
@@ -157,5 +158,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.95" />
+
+    <Button
+        android:id="@+id/perfilusuari_boto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="initPerfil"
+        android:text="@string/anarperfil"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewPlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
